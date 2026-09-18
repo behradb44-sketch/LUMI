@@ -1,0 +1,1 @@
+export const PORT=Number(process.env.PORT||10000);export const MAX_PLAYERS=20;export const TICK=20;export const ORIGIN=process.env.ALLOWED_ORIGINS||'*';

@@ -1,0 +1,14 @@
+import {CONFIG} from "./config.js";
+import {Network} from "./network/websocket.js";
+import {VoiceChat} from "./network/webrtc.js";
+import {Game} from "./game/game.js";
+import {setupUI} from "./ui/menu.js";
+const canvas=document.getElementById("game");
+const game=new Game(canvas,CONFIG);
+const network=new Network(CONFIG);
+const voice=new VoiceChat(network);
+game.attachNetwork(network,voice);
+setupUI({game,network,voice,CONFIG});
+setTimeout(()=>document.getElementById("boot")?.classList.add("hidden"),1200);
+window.addEventListener("error",e=>console.error("[LUMI]",e.error||e.message));
+window.addEventListener("unhandledrejection",e=>console.error("[LUMI]",e.reason));

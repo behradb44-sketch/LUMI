@@ -1,0 +1,1 @@
+export const EVENT_META={CHOCOLATE_RAIN:"Chocolate Rain",GIANT_FROG:"Giant Frog",BALLOON_EVENT:"Balloon Event",PURPLE_NIGHT:"Purple Night",LOW_GRAVITY:"Low Gravity",MONSTER_RUSH:"Monster Rush",GLITCH_EVENT:"Glitch Event",HEAVY_WIND:"Heavy Wind",METEOR_SHOWER:"Meteor Shower",PIXEL_STORM:"Pixel Storm"};

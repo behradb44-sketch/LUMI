@@ -1,0 +1,1 @@
+export function relay(room,from,to,data){const p=room?.players.get(to);if(p?.ws?.readyState===1)p.ws.send(JSON.stringify({type:'signal',from,data}))}

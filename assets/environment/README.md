@@ -1,0 +1,1 @@
+Layered environment assets.

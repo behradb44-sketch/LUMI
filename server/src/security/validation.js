@@ -1,0 +1,1 @@
+export const name=v=>String(v||'Player').replace(/[^a-zA-Z0-9 _-]/g,'').slice(0,16)||'Player';export const chat=v=>String(v||'').replace(/[<>]/g,'').trim().slice(0,180);export const pos=(x,y)=>Number.isFinite(x)&&Number.isFinite(y)&&x>=0&&y>=0&&x<=3600&&y<=2400;
