@@ -1,1 +1,0 @@
-export class Camera{constructor(canvas,w,h){this.canvas=canvas;this.w=w;this.h=h;this.x=0;this.y=0;this.zoom=1}update(t,dt){const vw=this.canvas.clientWidth/this.zoom,vh=this.canvas.clientHeight/this.zoom;const tx=Math.max(0,Math.min(this.w-vw,t.x-vw/2)),ty=Math.max(0,Math.min(this.h-vh,t.y-vh/2));this.x+=(tx-this.x)*Math.min(1,dt*8);this.y+=(ty-this.y)*Math.min(1,dt*8)}}

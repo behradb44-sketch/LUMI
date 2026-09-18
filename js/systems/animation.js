@@ -1,1 +1,0 @@
-export class AnimationSystem{constructor(){this.clips=new Map()}add(name,frames,fps=10){this.clips.set(name,{frames,fps})}sample(name,t){const c=this.clips.get(name);return c?c.frames[Math.floor(t*c.fps)%c.frames.length]:0}}
