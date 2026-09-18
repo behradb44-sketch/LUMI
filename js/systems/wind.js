@@ -1,0 +1,1 @@
+export class WindSystem{constructor(){this.strength=.35;this.phase=0}update(dt){this.phase+=dt}}

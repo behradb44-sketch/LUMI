@@ -1,0 +1,1 @@
+const C=['#55dce4','#ed5c62','#62d68b','#a879e8','#f0ce58','#f17fc5'];export class Player{constructor(id,n,c){this.id=id;this.name=n;this.character=Number(c)||0;this.color=C[this.character%6];this.x=500+Math.random()*800;this.y=650+Math.random()*700;this.state='idle';this.mic=false;this.lastMove=Date.now();this.ws=null}}

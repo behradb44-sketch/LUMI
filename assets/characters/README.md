@@ -1,0 +1,1 @@
+Character sprite sheets: idle, walk, run, jump, fall, land, interact, push, pull, ability, hurt, emote.
