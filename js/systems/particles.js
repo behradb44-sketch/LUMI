@@ -1,1 +1,0 @@
-export class ParticleSystem{constructor(){this.items=[]}update(dt){for(const p of this.items)p.life-=dt;this.items=this.items.filter(p=>p.life>0)}}

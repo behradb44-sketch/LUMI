@@ -1,1 +1,0 @@
-export function blocked(world,x,y){return x<35||y<35||x>world.w-35||y>world.h-35}

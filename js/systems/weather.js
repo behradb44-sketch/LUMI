@@ -1,1 +1,0 @@
-export class WeatherSystem{constructor(){this.type='clear';this.intensity=0}set(type,intensity=1){this.type=type;this.intensity=intensity}}

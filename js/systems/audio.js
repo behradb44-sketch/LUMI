@@ -1,1 +1,0 @@
-export class AudioSystem{constructor(){this.ctx=null}start(){this.ctx??=new AudioContext()}}
