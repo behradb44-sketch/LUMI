@@ -1,0 +1,1 @@
+export const inputState={x:0,y:0,run:false,jump:false};

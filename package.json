@@ -1,0 +1,12 @@
+{
+  "name": "lumi-unified",
+  "version": "1.4.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server/src/server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}

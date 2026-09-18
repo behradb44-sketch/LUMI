@@ -1,0 +1,1 @@
+Optional audio assets; Web Audio fallback is supported.
