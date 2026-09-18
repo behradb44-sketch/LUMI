@@ -1,1 +1,0 @@
-export class RateLimiter{constructor(limit,window){this.limit=limit;this.window=window;this.m=new Map()}allow(k){const n=Date.now();let a=(this.m.get(k)||[]).filter(x=>n-x<this.window);if(a.length>=this.limit){this.m.set(k,a);return false}a.push(n);this.m.set(k,a);return true}}
